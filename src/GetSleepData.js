@@ -18,7 +18,7 @@ console.log("Today's date: " + formatDate(today));
 console.log("Seven days ago: " + formatDate(sevenDaysAgo));
 
 // 사용할 accessToken
-var accessToken = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyM1MzN0siLCJzdWIiOiJDMlZaSE4iLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJlY2cgcnNldCByb3h5IHJudXQgcnBybyByc2xlIHJjZiByYWN0IHJsb2MgcnJlcyByd2VpIHJociBydGVtIiwiZXhwIjoxNzE0NTgzNzA4LCJpYXQiOjE3MTQ1NTQ5MDh9.uyUQi0-PSpwAolCVBTTJmibalCgDObszATRpnLI70TA';
+var accessToken = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyM1MzN0siLCJzdWIiOiJDMlZaSE4iLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJlY2cgcnNldCByb3h5IHJwcm8gcm51dCByc2xlIHJjZiByYWN0IHJsb2MgcnJlcyByd2VpIHJociBydGVtIiwiZXhwIjoxNzE0NjQzODg5LCJpYXQiOjE3MTQ2MTUwODl9.61lwRKwL7daY8_VCviPdXbX7YYZZTCjKJ83tLlg-MDI';
 
 // 디바이스 정보 요청 설정
 const deviceConfig = {
